@@ -9,10 +9,10 @@ $auth_token = 'your_auth_token';
 // $auth_token = $_ENV["TWILIO_ACCOUNT_SID"]
 
 // A Twilio number you own with Voice capabilities
-$twilio_number = "+15017122661";
+$twilio_number = "+13343263069";
 
 // Where to make a voice call (your cell phone?)
-$to_number = "+15558675310";
+$to_number = "+61415443008";
 
 $client = new Client($account_sid, $auth_token);
 $client->account->calls->create(  
